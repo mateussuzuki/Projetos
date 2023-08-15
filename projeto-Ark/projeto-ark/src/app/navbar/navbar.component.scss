@@ -1,8 +1,16 @@
+
 .logoArk {
-    width: 15%;
+    width: 10%;
+}
+.container-nav {
+    margin: 0px 16%;
 }
 
-// .navbar {
-//     background-color: var((--base-color));
-// }
+.navbar {
+    background-color: var((--base-color-opacity));
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
+    z-index: 1;
+    
+}
+
 

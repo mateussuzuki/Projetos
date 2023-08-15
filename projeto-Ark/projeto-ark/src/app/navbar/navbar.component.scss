@@ -2,8 +2,35 @@
 .logoArk {
     width: 10%;
 }
+
 .container-nav {
     margin: 0px 16%;
+}
+
+.nav-link {
+    color: var(--letter-color);
+    font-family: var(--font-title);
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(2, 65, 99, 0.36);
+}
+
+.search {
+    width: 350px;
+    font: 1.1em var(--font-title);
+    color: var(--letter-color);
+    font-weight: bolder;
+    background: rgba(12, 109, 154, 0.30);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    border: 3px solid var(--border-color);
+}
+
+.lupa {
+    position: absolute;
+    
+}
+.search::placeholder {
+    color: var(--letter-color);
 }
 
 .navbar {

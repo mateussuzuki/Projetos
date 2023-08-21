@@ -1,15 +1,19 @@
-
-
-.nav-link {
-    color: var(--letter-color);
+* {
     font-family: var(--font-title);
+    color: var(--letter-color);
+}
+
+.navbar {
+    background-color: var((--base-color-opacity));
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
+}
+.nav-link {
     font-size: 1.1em;
     font-weight: bolder;
     text-shadow: 0px 4px 4px rgba(2, 65, 99, 0.36);
 }
 
 .search {
-    font: 1.1em var(--font-title);
     color: var(--letter-color);
     border: 2px solid var(--border-color);
     font-weight: bolder;
@@ -22,20 +26,29 @@
 
 .form {
     position: relative;
-    width: 30%;
+    width: 25%;
 }
-
 .btn {
     position: absolute;
     right: 0;
     border: none;
 }
 
-.navbar {
-    background-color: var((--base-color-opacity));
+.dropdown-menu {
     box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
-    z-index: 1;
+    padding: 0;
+    margin-top: 25%;
     
 }
+.dropdown-item:hover {
+    background-color: var(--base-color-opacity);
+    
+}
+.dropdown-item {
+    background-color: var(--base-color-opacity);
+    font-weight: bolder;
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
+}
+
 
 

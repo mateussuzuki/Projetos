@@ -19,6 +19,7 @@
     font-weight: bolder;
     background: rgba(12, 109, 154, 0.30);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    font-size: 1.1em;
 }
 .search::placeholder {
     color: var(--letter-color);
@@ -26,22 +27,22 @@
 
 .form {
     position: relative;
-    width: 25%;
 }
+
 .btn {
     position: absolute;
-    right: 0;
-    border: none;
+    right: -1%;
+    top: 4%;
 }
 
 .dropdown-menu {
-    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
     padding: 0;
-    margin-top: 25%;
+    margin-top: 26%;
     
 }
 .dropdown-item:hover {
     background-color: var(--base-color-opacity);
+    box-shadow: none;
     
 }
 .dropdown-item {

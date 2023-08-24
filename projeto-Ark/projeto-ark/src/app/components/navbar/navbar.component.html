@@ -69,15 +69,15 @@
   </div>
 </nav> -->
 
-<nav class="navbar fixed-top navbar-expand-md d-flex align-items-center py-0">
+<nav class="navbar fixed-top navbar-expand-md d-flex align-items-center">
   <div class="container-fluid">
     <div class="navbar-brand col-12 col-md-4 d-flex justify-content-center">
-      <a href="#" class="d-flex justify-content-center" style="width: 25%;">
+      <a href="#" style="width: 30%;">
         <img src="../../../assets/logos/logo-ark.png" alt="Logo do icone ark" style="width: 100%;">
       </a>
     </div>
 
-    <form class="d-flex col-md-3 form" role="search">
+    <form class="d-flex col-6 col-md-3 form" role="search">
       <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
       <button class="btn" type="submit">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -86,18 +86,18 @@
       </button>
     </form>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+    <button class="navbar-toggler buttonCanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="offcanvas offcanvas-end col-md-6 d-flex align-items-center" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas offcanvas-end canvas col-md-6 " tabindex="-1" id="offcanvas">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h1 class="offcanvas-title fw-bolder" id="offcanvas">Menu</h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
       </div>
       
       <div class="offcanvas-body nav-link col-md-4">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>

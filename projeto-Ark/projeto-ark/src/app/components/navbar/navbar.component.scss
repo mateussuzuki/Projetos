@@ -1,6 +1,7 @@
 * {
     font-family: var(--font-title);
     color: var(--letter-color);
+    overflow: hidden;
 }
 
 .navbar {
@@ -31,14 +32,13 @@
 
 .btn {
     position: absolute;
-    right: -1%;
+    right: -2%;
     top: 4%;
+    border: none;
 }
 
-.dropdown-menu {
+ .dropdown-menu {
     padding: 0;
-    margin-top: 26%;
-    
 }
 .dropdown-item:hover {
     background-color: var(--base-color-opacity);
@@ -51,5 +51,13 @@
     box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
 }
 
+.canvas {
+    background-color: var(--base-color-opacity);
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
+}
+.buttonCanvas {
+    color: transparent;
+    border: 2px solid var(--border-color);
+}
 
 

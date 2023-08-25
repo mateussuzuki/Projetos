@@ -1,0 +1,13 @@
+.fundo {
+    background-color: var(--base-color-opacity);
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
+}
+
+.search {
+    color: var(--letter-color);
+    border: 2px solid var(--border-color);
+    font-weight: bolder;
+    background: rgba(12, 109, 154, 0.30);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    font-size: 1.1em;
+}

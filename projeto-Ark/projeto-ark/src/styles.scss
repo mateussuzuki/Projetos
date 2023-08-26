@@ -8,6 +8,18 @@
     --border-color: #039696;
     --base-color-opacity: rgba(25, 155, 216, 0.6);
     --base-color: rgb(25, 155, 216);
+    --base-color-button: rgb(5, 62, 98, 1);
+}
+
+* {
+    font-family: var(--font-title);
+    color: var(--letter-color);
+    font-weight: bolder;
+}
+
+.fundoContent {
+    background-color: var(--base-color-opacity);
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
 }
 
 

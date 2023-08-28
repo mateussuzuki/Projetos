@@ -8,13 +8,15 @@
     --border-color: #039696;
     --base-color-opacity: rgba(25, 155, 216, 0.6);
     --base-color: rgb(25, 155, 216);
-    --base-color-button: rgb(5, 62, 98, 1);
+    --base-color-button-opacity: rgb(5, 62, 98, 0.8);
+    --base-color-button: rgb(5, 62, 98);
 }
 
 * {
     font-family: var(--font-title);
     color: var(--letter-color);
     font-weight: bolder;
+    
 }
 
 .fundoContent {

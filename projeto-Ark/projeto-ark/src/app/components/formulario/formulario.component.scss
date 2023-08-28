@@ -1,3 +1,7 @@
+.fundoContent {
+    border: 3px solid var(--border-color);
+    background-color: var(--base-color-button-opacity);
+}
 
 .search {
     color: var(--letter-color);
@@ -6,5 +10,16 @@
     background: rgba(12, 109, 154, 0.30);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
     font-size: 1.1em;
+}
+
+.btn {
+    background-color: var(--base-color-button-opacity);
+    color: var(--letter-color);
+    font-weight: bolder;
+    border: 2px solid var(--border-color);
+}
+
+a {
+    text-decoration: none;
 }
 

@@ -14,12 +14,16 @@
 
 .btn {
     background-color: var(--base-color-button-opacity);
+    border: 2px solid var(--border-color);
     color: var(--letter-color);
     font-weight: bolder;
-    border: 2px solid var(--border-color);
+    font-size: 1.2em;
 }
 
-a {
-    text-decoration: none;
+.icone-rede-social {
+    background-color: var(--base-color-button-opacity);
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
 }
+
 

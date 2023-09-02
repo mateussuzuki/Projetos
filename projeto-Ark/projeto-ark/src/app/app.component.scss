@@ -8,3 +8,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width:1200px) {
+    .img {
+        background-image: url(../assets/imagem/imagem-ark-fundo.jpg);
+    }
+}

@@ -6,11 +6,10 @@
 }
 
 .search {
-    background: rgba(12, 109, 154, 0.30);
     border: 2px solid var(--border-color);
     color: var(--letter-color);
+    background: rgba(12, 109, 154, 0.30);
     font-weight: bolder;
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
     font-size: 1.1em;
 }
 
@@ -30,16 +29,15 @@
 }
 
 .buttonCanvas {
-    background: rgba(12, 109, 154, 0.30);
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30) inset;
     border: 2px solid var(--border-color);
+    background: rgba(12, 109, 154, 0.30);
     color: transparent;
 }
 
 .dropdown-item:hover {
     background-color: var(--base-color-opacity);
-    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
     color: var(--letter-color);
+    box-shadow: 0px -188px 200px 0px rgba(0, 0, 0, 0.34) inset;
     
 }
 

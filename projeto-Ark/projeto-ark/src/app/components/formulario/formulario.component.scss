@@ -24,10 +24,18 @@
 }
 
 @media (min-width: 1200px) {
-    
-
     .icone-rede-social {
         width: 10%; 
+    }
+
+    .search {
+        font-size: 1.3em;
+        margin-right: 10%;
+    }
+
+    .span-svg,
+    .form-label {
+        margin-left: 10%;
     }
 }
 

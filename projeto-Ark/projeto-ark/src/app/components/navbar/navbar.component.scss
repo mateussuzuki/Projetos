@@ -5,6 +5,7 @@
     text-shadow: 0px 4px 4px rgba(2, 65, 99, 0.36);
 }
 
+
 .search {
     border: 2px solid var(--border-color);
     color: var(--letter-color);
@@ -52,4 +53,14 @@
 }
 
 
+@media (min-width: 1200px) {
+    .canvas {
+        box-shadow: none;
+        margin-left: 7%;
+    }
 
+    .dropdown-menu {
+        margin-top: 18%;
+    }
+
+}

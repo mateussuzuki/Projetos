@@ -1,4 +1,16 @@
-<div class="img">
+<div class="img container-fluid">
     <app-navbar></app-navbar>
-    <app-formulario></app-formulario>
+
+    <div class="container mt-5">
+        <app-bemvindo></app-bemvindo>
+        <div class="fundoContent">
+            <app-carrossel-destaques [imagens]="[
+            'https://cdn1.epicgames.com/ark/offer/EGS_ValgueroARKExpansionMap_StudioWildcard_DLC_S1-2560x1440-ac1543ffc6225457c0d4c8b93557d951.jpg',
+            'https://image.api.playstation.com/cdn/UP0691/CUSA06676_00/fyLI1f49To8WUszzs49QZOnJnF3grNcH.png',
+            'https://image.api.playstation.com/cdn/UP0691/CUSA06676_00/K2FCrR2xmGfB69gA4PhfOuHRgZ3gd6iM.png',
+        ]"
+        ></app-carrossel-destaques>
+        </div>
+    </div>
+    
 </div>

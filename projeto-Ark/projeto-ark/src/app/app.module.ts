@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { BemvindoComponent } from './components/bemvindo/bemvindo.component';
+import { CarrosselDestaquesComponent } from './components/carrossel-destaques/carrossel-destaques.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FormularioComponent
+    FormularioComponent,
+    BemvindoComponent,
+    CarrosselDestaquesComponent
   ],
   imports: [
     BrowserModule,

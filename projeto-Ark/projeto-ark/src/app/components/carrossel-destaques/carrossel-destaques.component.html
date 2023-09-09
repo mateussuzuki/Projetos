@@ -1,12 +1,13 @@
+<div class="container">
+  <div class="fundoContent">
+    <div class="item" [style.backgroundImage]="'url(' + imagens[indexImagemAtiva].url +')' ">
+    </div>
+    <h1>{{ imagens[indexImagemAtiva].descricao }}</h1>
+  </div>
 
-<div class="fundoContent">
-      <div class="item" [style.backgroundImage]="'url(' + imagens[indexImagemAtiva] +')' "></div>
-</div>
-  
-<div class="botoes-controle">
-    <button
-      *ngFor="let imagem of imagens; index as i"
-      [class.ativo]="i === indexImagemAtiva"
+  <div class="botoes-controle">
+    <button *ngFor="let imagem of imagens; index as i" [class.ativo]="i === indexImagemAtiva"
       (click)="pararTimer(); ativarImagem(i)">
     </button>
+  </div>
 </div>

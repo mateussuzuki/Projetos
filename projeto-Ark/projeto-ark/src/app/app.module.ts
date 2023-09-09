@@ -14,7 +14,7 @@ import { CarrosselDestaquesComponent } from './components/carrossel-destaques/ca
     NavbarComponent,
     FormularioComponent,
     BemvindoComponent,
-    CarrosselDestaquesComponent
+    CarrosselDestaquesComponent,
   ],
   imports: [
     BrowserModule,

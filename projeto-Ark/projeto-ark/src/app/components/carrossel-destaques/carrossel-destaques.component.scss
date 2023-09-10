@@ -22,7 +22,7 @@
 }
 
 .botoes-controle button {
-    background: white;
+    background: var(--base-color-button-opacity);
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -31,6 +31,6 @@
 }
 
 .botoes-controle button.ativo {
-    background: var(--base-color-button-opacity);
+    background: var(--letter-color);
     cursor: default;
 }

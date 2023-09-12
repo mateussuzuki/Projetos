@@ -1,14 +1,14 @@
 import { Component, OnDestroy, OnInit, Input } from '@angular/core';
 import { Subscription, timer } from 'rxjs';
-import { Destaque } from 'src/app/components/carrossel-destaques/destaque';
+import { Destaque } from 'src/app/components/carrossel/destaque';
 
 @Component({
-  selector: 'app-carrossel-destaques',
-  templateUrl: './carrossel-destaques.component.html',
-  styleUrls: ['./carrossel-destaques.component.scss']
+  selector: 'app-carrossel',
+  templateUrl: './carrossel.component.html',
+  styleUrls: ['./carrossel.component.scss']
 })
 
-export class CarrosselDestaquesComponent implements OnInit, OnDestroy {
+export class CarrosselComponent implements OnInit, OnDestroy {
 
   timerSubs!: Subscription;
 

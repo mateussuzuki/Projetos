@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { BemvindoComponent } from './components/bemvindo/bemvindo.component';
-import { CarrosselDestaquesComponent } from './components/carrossel-destaques/carrossel-destaques.component';
+import { CarrosselComponent } from './components/carrossel/carrossel.component';
+import { SobreComponent } from './components/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CarrosselDestaquesComponent } from './components/carrossel-destaques/ca
     NavbarComponent,
     FormularioComponent,
     BemvindoComponent,
-    CarrosselDestaquesComponent,
+    CarrosselComponent,
+    SobreComponent,
   ],
   imports: [
     BrowserModule,

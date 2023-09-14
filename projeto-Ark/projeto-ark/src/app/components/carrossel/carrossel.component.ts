@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit, Input } from '@angular/core';
 import { Subscription, timer } from 'rxjs';
-import { Destaque } from 'src/app/components/carrossel/destaque';
+import { Conteudo } from 'src/app/components/carrossel/conteudo';
 
 @Component({
   selector: 'app-carrossel',
@@ -12,7 +12,7 @@ export class CarrosselComponent implements OnInit, OnDestroy {
 
   timerSubs!: Subscription;
 
-  @Input() imagens: Destaque[] = [];
+  @Input() imagens: Conteudo[] = [];
 
   private _indexImagemAtiva: number = 0;
 

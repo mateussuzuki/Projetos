@@ -1,22 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { Destaque } from 'src/app/components/carrossel/destaque';
+import { Conteudo } from 'src/app/components/carrossel/conteudo';
 
 @Component({
   selector: 'app-bemvindo',
   templateUrl: './bemvindo.component.html',
   styleUrls: ['./bemvindo.component.scss']
 })
-export class BemvindoComponent implements OnInit{
+export class BemvindoComponent {
 
-    destaques = [
-    new Destaque('/assets/imagens-destaque/ark2.png', 'Akr2'),
-    new Destaque('/assets/imagens-destaque/ark-genesis.jpeg', 'Ark genesis'),
-    new Destaque('/assets/imagens-destaque/amargassaurus.webp', 'Argamassaurus'),
+    conteudo = [
+    new Conteudo('/assets/imagens-destaque/ark2.png', 'Akr2', 'Venha conferir as novas atualizações do Ark 2'),
+    new Conteudo('/assets/imagens-destaque/ark-genesis.jpeg', 'Ark genesis', 'Conheça o novo mapa DLC com muitas novidades!'),
+    new Conteudo('/assets/imagens-destaque/amargassaurus.webp', 'Argamassaurus', 'Criatura nova vem junto com o novo mapa The Lost Island'),
   ]
   
     constructor(){
     }
-
-    ngOnInit(): void {
-    }
+    
 }

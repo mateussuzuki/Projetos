@@ -1,11 +1,17 @@
 
-
 .img {
     padding: 0;
-    height: 25vh;
+    height: 23vh;
     width: 100%;
 }
 
+.limitarLinhas {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+}
 
 .item {
     background-position: center;

@@ -7,6 +7,7 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { BemvindoComponent } from './components/bemvindo/bemvindo.component';
 import { CarrosselComponent } from './components/carrossel/carrossel.component';
 import { SobreComponent } from './components/sobre/sobre.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
     BemvindoComponent,
     CarrosselComponent,
     SobreComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

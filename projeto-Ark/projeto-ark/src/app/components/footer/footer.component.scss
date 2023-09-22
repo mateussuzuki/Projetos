@@ -3,10 +3,24 @@
     border-radius: 0;
 }
 
-.HLNA-container {
-    width: 25%;
+.HLNA {
+    width: 80%;
 }
 
-.HLNA {
-    width: 100%;
+.input-email {
+    border: 2px solid var(--border-color);
+    color: var(--letter-color);
+    background: rgba(12, 109, 154, 0.30);
+    font-weight: bolder;
+}
+
+.input-email::placeholder {
+    color: var(--letter-color);
+}
+
+.btn-input-email {
+    border: 2px solid var(--border-color);
+    background: rgba(12, 109, 154, 0.30);
+    color: var(--letter-color);
+    font-weight: bolder;
 }

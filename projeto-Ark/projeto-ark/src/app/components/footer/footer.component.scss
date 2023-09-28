@@ -24,3 +24,22 @@
     color: var(--letter-color);
     font-weight: bolder;
 }
+
+.icone-rede-social {
+    width: 30%;
+}
+
+.btn-contato {
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--letter-color);
+    font-weight: bolder;
+}
+
+.a-rede-social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid var(--border-color);
+
+}

@@ -1,40 +1,47 @@
-<div class="container mb-2 marginTop">
-    <div class="text-center fundoContent p-1">
-        <h1>Seja bem vindo sobrevivente!</h1>
-        <p class="fw-bolder">Aqui você pode encontrar tudo sobre o jogo e ainda conseguir interagir com outros sobreviventes! </p>
+<div class="container">
+
+    <div class="container row marginTop">
+        <div class="col-12 col-md-6 text-center fundoContent mb-1">
+            <h1>Seja bem vindo sobrevivente!</h1>
+            <p class="fw-bolder">Aqui você pode encontrar tudo sobre o jogo e ainda conseguir interagir com outros sobreviventes! </p>
+        </div>
+        <div class="col-12 col-md-6">
+            <app-carrossel [imagens]="conteudo"></app-carrossel>
+        </div>
     </div>
-</div>
 
-<app-carrossel [imagens]="conteudo"></app-carrossel>
-
-<div class="container mt-4">
-    <div class="fundoContent">
-        <div class="row justify-content-center p-3 pb-2">
-            <div class="col-6 mb-2">
-                <a href="#" class="flexcenter fundoContent p-1">
-                    <img src="../../../assets/icones-ark/Dodo.webp" class="icon-Ark" alt="icone criaturas">
-                </a>
-                <h5 class="flexcenter pt-1">Criaturas</h5>
-            </div>
-            <div class="col-6 mb-2">
-                <a href="#" class="flexcenter fundoContent p-1">
-                    <img src="../../../assets/icones-ark/Kibble.webp" class="icon-Ark" alt="icone ração ark">
-                </a>
-                <h5 class="flexcenter pt-1">Rações</h5>
-            </div>
-            <div class="col-6">
-                <a href="#" class="flexcenter fundoContent p-1">
-                    <img src="../../../assets/icones-ark/mapas.jpeg" class="icon-Ark" alt="icone mapas">
-                </a>
-                <h5 class="flexcenter pt-1">Mapas</h5>
-            </div>
-            <div class="col-6">
-                <a href="#" class="flexcenter fundoContent p-1">
-                    <img src="../../../assets/icones-ark/madeira.png" class="icon-Ark" alt="icone mapas">
-                </a>
-                <h5 class="flexcenter pt-1">Recursos</h5>
+    <!-- mexer no row que é o que ta bugando, deixando pra esquerda padrão o negocio -->
+    
+    <div class="container mt-4">
+        <div class="fundoContent">
+            <div class="row justify-content-center p-3 pb-2">
+                <div class="col-6 mb-2">
+                    <a href="#" class="flexcenter fundoContent p-1">
+                        <img src="../../../assets/icones-ark/Dodo.webp" class="icon-Ark" alt="icone criaturas">
+                    </a>
+                    <h5 class="flexcenter pt-1">Criaturas</h5>
+                </div>
+                <div class="col-6 mb-2">
+                    <a href="#" class="flexcenter fundoContent p-1">
+                        <img src="../../../assets/icones-ark/Kibble.webp" class="icon-Ark" alt="icone ração ark">
+                    </a>
+                    <h5 class="flexcenter pt-1">Rações</h5>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="flexcenter fundoContent p-1">
+                        <img src="../../../assets/icones-ark/mapas.jpeg" class="icon-Ark" alt="icone mapas">
+                    </a>
+                    <h5 class="flexcenter pt-1">Mapas</h5>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="flexcenter fundoContent p-1">
+                        <img src="../../../assets/icones-ark/madeira.png" class="icon-Ark" alt="icone mapas">
+                    </a>
+                    <h5 class="flexcenter pt-1">Recursos</h5>
+                </div>
             </div>
         </div>
     </div>
 
 </div>
+

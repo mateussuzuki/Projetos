@@ -14,7 +14,6 @@
     text-decoration: none;
 }
 
-
 .search {
     border: 2px solid var(--border-color);
     color: var(--letter-color);
@@ -65,11 +64,15 @@
 @media (min-width: 766px) {
     .canvas {
         box-shadow: none;
-        margin-left: 7%;
     }
 
     .dropdown-menu {
         margin-top: 18%;
     }
+
+    .nav-item {
+        font-size: 1.2em;
+    }
+    
 
 }

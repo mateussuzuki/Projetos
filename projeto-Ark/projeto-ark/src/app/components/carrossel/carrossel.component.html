@@ -1,15 +1,13 @@
 
-  <div class="container fundoContent">
-    <h1 class="m-2 text-center"> Atualizações recentes </h1>
-    <div class="container img fundoContent">
-      <a href="#">
-        <img class="item" [style.backgroundImage]=" 'url(' + imagens[indexImagemAtiva].url +')' ">
-        </a>
-    </div>
-    <h3 class="m-2 text-center limitarLinhas"> {{ imagens[indexImagemAtiva].descricao }} </h3>
+  <h1 class="m-2 text-center"> Atualizações recentes </h1>
+  <div class="img p-2">
+    <a href="#">
+      <img class="item" [style.backgroundImage]=" 'url(' + imagens[indexImagemAtiva].url +')' ">
+      </a>
   </div>
+  <h3 class="m-2 text-center limitarLinhas"> {{ imagens[indexImagemAtiva].descricao }} </h3>
 
-  <div class="botoes-controle">
+  <div class="botoes-controle mb-2">
     <button 
       *ngFor="let imagem of imagens; index as i" 
       [class.ativo]="i === indexImagemAtiva"

@@ -1,6 +1,5 @@
 
 .img {
-    padding: 0;
     height: 24vh;
     width: 100%;
 }
@@ -20,6 +19,7 @@
     width: 100%;
     height: 100%;
     transition: all 0.5s ease-in-out;
+    border: 1px solid var(--border-color);
     border-radius: 5px;
 }
 
@@ -42,4 +42,12 @@
 .botoes-controle button.ativo {
     background: var(--letter-color);
     cursor: default;
+}
+
+@media(min-width:1200px) {
+    .img {
+        padding: 0;
+        height: 35vh;
+        width: 100%;    
+    }
 }

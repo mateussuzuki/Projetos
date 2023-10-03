@@ -1,5 +1,6 @@
 .marginTop {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-inline: 0;
 }
 
 .icon-Ark {
@@ -16,5 +17,10 @@
 @media (min-width:768px) {
     .marginTop {
         margin-top: 450px;
+        display: flex;
+    }
+
+    .icon-Ark {
+        width: 20%;
     }
 }

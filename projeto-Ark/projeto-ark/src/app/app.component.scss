@@ -9,8 +9,16 @@
     flex-direction: column;
 }
 
+.fixOverlap {
+    padding-top: 10%;
+}
+
 @media (min-width:1200px) {
     .img {
         background-image: url(../assets/imagem/imagem-ark-fundo.jpg);
     }
+
+    // .fixOverlap {
+    //     padding-top: 15%;
+    // }
 }

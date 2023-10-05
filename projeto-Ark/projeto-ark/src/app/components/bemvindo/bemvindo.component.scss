@@ -1,6 +1,11 @@
-.marginTop {
-    margin-top: 80px;
+.marginTopCelular {
     margin-inline: 0;
+}
+
+.marginTopPc {
+    display: none;
+    margin-inline: 0;
+
 }
 
 .icon-Ark {
@@ -14,10 +19,13 @@
     margin: 0;
 }
 
-@media (min-width:768px) {
-    .marginTop {
-        margin-top: 450px;
+@media (min-width:1200px) {
+    .marginTopPc {
         display: flex;
+    }
+
+    .marginTopCelular {
+        display: none;
     }
 
     .icon-Ark {

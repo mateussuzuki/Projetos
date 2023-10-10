@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Conteudo } from 'src/app/components/carrossel/conteudo';
+
 
 @Component({
   selector: 'app-bemvindo',
@@ -16,5 +17,11 @@ export class BemvindoComponent {
   
     constructor(){
     }
+
+    mostrarComponent: boolean = false;
+
+    mostrarComponente() {
+    this.mostrarComponent = !this.mostrarComponent;
+  } 
     
 }

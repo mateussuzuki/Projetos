@@ -17,11 +17,5 @@ export class BemvindoComponent {
   
     constructor(){
     }
-
-    mostrarComponent: boolean = false;
-
-    mostrarComponente() {
-    this.mostrarComponent = !this.mostrarComponent;
   } 
     
-}

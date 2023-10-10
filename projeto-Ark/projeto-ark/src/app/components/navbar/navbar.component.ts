@@ -9,11 +9,6 @@ export class NavbarComponent implements OnInit{
     constructor() {
     }
 
-    // mostrarComponent: boolean = false;
-    // mostrarComponente() {
-    //   this.mostrarComponent = !this.mostrarComponent;
-    // }
-
     ngOnInit(){
     }
 }

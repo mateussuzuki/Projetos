@@ -1,9 +1,9 @@
 <div class="row marginTopCelular">
-    <div class="col-12 col-md-6 text-center fundoContent">
+    <div class="col-12 text-center fundoContent">
         <h1>Seja bem vindo sobrevivente!</h1>
         <p class="fw-bolder">Aqui você pode encontrar tudo sobre o jogo e ainda conseguir interagir com outros sobreviventes! </p>
     </div>
-    <div class="col-12 col-md-6 fundoContent">
+    <div class="col-12 fundoContent">
         <app-carrossel [imagens]="conteudo"></app-carrossel>
     </div>
 </div>
@@ -11,14 +11,48 @@
 <div class="row marginTopPc">
     <div class="col-12 text-center fundoContent">
         <h1>Seja bem vindo sobrevivente!</h1>
-        <p class="fw-bolder">Aqui você pode encontrar tudo sobre o jogo e ainda conseguir interagir com outros sobreviventes! </p>
-        <div class="col-12 fundoContent">
-            <app-carrossel [imagens]="conteudo"></app-carrossel>
+        <h3 class="fw-bolder">Aqui você pode encontrar tudo sobre o jogo e ainda conseguir interagir com outros sobreviventes! </h3>
+        <div class="row m-2 m-3 justify-content-evenly">
+            <div class="col-8 fundoContent">
+                <app-carrossel [imagens]="conteudo"></app-carrossel>
+            </div>
+            <div class="col-3 justify-content-center fundoContent mx-0 p-3">
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <a href="#" class="flexcenter fundoContent">
+                            <img src="../../../assets/icones-ark/Dodo.webp" class="icon-Ark" alt="icone criaturas">
+                            </a>
+                        <h5 class="flexcenter pt-1">Criaturas</h5>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <a href="#" class="flexcenter fundoContent p-1">
+                            <img src="../../../assets/icones-ark/Kibble.webp" class="icon-Ark" alt="icone ração ark">
+                        </a>
+                        <h5 class="flexcenter pt-1">Rações</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <a href="#" class="flexcenter fundoContent p-1">
+                            <img src="../../../assets/icones-ark/mapas.jpeg" class="icon-Ark" alt="icone mapas">
+                        </a>
+                        <h5 class="flexcenter pt-1">Mapas</h5>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <a href="#" class="flexcenter fundoContent p-1">
+                            <img src="../../../assets/icones-ark/madeira.png" class="icon-Ark" alt="icone mapas">
+                        </a>
+                        <h5 class="flexcenter pt-1">Recursos</h5>
+            
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
-<div class="row justify-content-center fundoContent mt-4 mx-0 p-3 pb-2">
+<div class="row marginTopCelular justify-content-center fundoContent mt-4 mx-0 p-3 pb-2">
     <div class="row">
         <div class="col-6 mb-2">
             <a href="#" class="flexcenter fundoContent">
@@ -50,4 +84,7 @@
     </div>
 </div>
 
-<!-- <app-formulario *ngIf="mostrarComponent"></app-formulario> -->
+
+
+
+

@@ -1,6 +1,6 @@
 .img {
     background-image: url('../assets/imagem/ark-mobile-fundo.jpg');
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-position: 42%; 
     background-size: cover;
@@ -10,10 +10,10 @@
 }
 
 .fixOverlap {
-    padding-top: 13%;
+    padding-top: 115px;
 }
 
-@media (min-width:1200px) {
+@media (min-width:992px) {
     .img {
         background-image: url(../assets/imagem/imagem-ark-fundo.jpg);
     }

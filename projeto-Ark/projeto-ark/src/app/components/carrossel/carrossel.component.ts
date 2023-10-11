@@ -44,10 +44,38 @@ export class CarrosselComponent implements OnInit, OnDestroy {
   pararTimer(): void {
     this.timerSubs?.unsubscribe();
   }
-
+  
   ativarImagem(index: number): void {
     this.indexImagemAtiva = index;
     this.iniciarTimer();
   }
+
+  imagemAnterior(): void {
+    const index = this.indexImagemAtiva - 1;
+    
+    if (index < 0) {
+      this.indexImagemAtiva = this.imagens.length - 1;
+    } else {
+      this.indexImagemAtiva = index;
+    }
+    this.pararTimer();
+    this.iniciarTimer();
+  }
+
+  imagemPosterior(): void {
+  const index = this.indexImagemAtiva + 1;
+
+  if (index >= this.imagens.length) {
+    this.indexImagemAtiva = 0;
+  } else {
+    this.indexImagemAtiva = index;
+  }
+
+  this.pararTimer();
+  this.iniciarTimer();
+  }
+
 }
+
+
 

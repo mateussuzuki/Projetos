@@ -1,9 +1,23 @@
 
   <h1 class="m-2 text-center"> Atualizações recentes </h1>
-  <div class="img p-2">
-    <a href="#">
+  <div class="flexcenter">
+    <button
+    (click)="imagemAnterior()" 
+    class="btn btnEsquerdo">
+      <svg width="17" height="32" viewBox="0 0 17 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 2L3.82842 13.1716C2.26633 14.7337 2.26633 17.2663 3.82843 18.8284L15 30" stroke="#89DFF1" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <a href="#" class="img">
       <img class="item" [style.backgroundImage]=" 'url(' + imagens[indexImagemAtiva].url +')' ">
-      </a>
+    </a>
+    <button
+    (click)="imagemPosterior()" 
+    class="btn btnDireito">
+      <svg width="17" height="32" viewBox="0 0 17 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2L13.1716 13.1716C14.7337 14.7337 14.7337 17.2663 13.1716 18.8284L2 30" stroke="#89DFF1" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </button>
   </div>
   <h3 class="m-2 text-center limitarLinhas"> {{ imagens[indexImagemAtiva].descricao }} </h3>
 

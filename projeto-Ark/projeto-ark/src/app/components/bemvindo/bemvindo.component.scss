@@ -29,6 +29,11 @@
     }
 
     .icon-Ark {
-        width: 40%;
+        width: 65%;
+        transition: 0.5s;
+    }
+
+    .flexcenter:hover > .icon-Ark {
+        transform: scale(1.1);
     }
 }

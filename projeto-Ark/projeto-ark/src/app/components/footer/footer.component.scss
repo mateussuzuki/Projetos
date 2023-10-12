@@ -43,3 +43,33 @@
     border-left: 2px solid var(--border-color);
 
 }
+
+.footerCelular {
+    margin-inline: 0;
+}
+
+.footerPc {
+    display: none;
+    
+}
+
+@media (min-width: 992px) {
+
+    .HLNA {
+        width: 90%;
+    }
+
+    .icone-rede-social {
+        width: 20%;
+    }
+
+    .footerCelular {
+        display: none;
+    }
+
+    .footerPc {
+        display: flex;
+        margin-inline: 0;
+    }
+
+}
